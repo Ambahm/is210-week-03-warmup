@@ -4,3 +4,4 @@
 
 
 WILL_ROBINSON = 'Danger Will Robinson!'
+KLAXON = WILL_ROBINSON[:7]   # Slicing a string for initial 7 charaters.
