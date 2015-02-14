@@ -12,3 +12,7 @@
 """
 
 import task_12
+
+# Checking values of two variable , ==
+FRAC_DEC_EQUAL = task_12.DECVAL == task_12.FRACVAL  # Opertaor used ==
+DEC_FLOAT_INEQUAL = task_12.DECVAL != task_12.FLOATVAL  # Opertaor used ==
