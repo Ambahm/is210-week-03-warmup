@@ -18,3 +18,7 @@ NERVOUS_AS = """
 
 
 """
+NERVOUS_AS = NERVOUS_AS.strip()   # Removing spaces from string
+# striping to remove (,) and (/)
+
+NERVOUS_AS = NERVOUS_AS.strip(',').lstrip('/')
